@@ -1,0 +1,186 @@
+#chart-header {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#chart-header-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#bar-image-2 {
+    background-image: url("../../pictures/publicInvestmentExpenses.png");
+    height: 68px;
+    width: 68px;
+    justify-self: center;
+    align-self: center;
+}
+
+.header {
+    background-color: #06163A;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 30px;
+}
+
+.header h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.budget-chart-title {
+    text-align: start;
+    color: #333333;
+    padding-left: 50px;
+}
+
+.chart-flexbox {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    height: 480px;
+    margin-bottom: 500px;
+}
+
+.chart-grid {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 4fr 1fr;
+}
+
+.chart-info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #363B64;
+    text-align: start;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.chart-info h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.chart-info p {
+    margin-bottom: -20px;
+}
+
+.chart {
+    background-color: #fff;
+}
+
+.chart-grid hr {
+    width: 100%;
+}
+
+.chart-bar {
+    border-top: 1px solid #DBDBDB;
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+#line-2 {
+    margin-top: 10px;
+}
+
+.bar-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bar-image {
+    background-image: url("../../pictures/outcome.png");
+    height: 68px;
+    width: 68px;
+    justify-self: center;
+    align-self: center;
+}
+
+.bar-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.bar-info h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bar-info p {
+    font-size: 14px;
+}
+
+.chart-image {
+    background-color: #06163A;
+}
+
+.table-section {
+    margin-top: -200px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.table-section h1 {
+    text-align: start;
+}
+
+/*.td-block-gray {
+
+} */
+
+.td-bold-blue {
+    color: #363B64;
+    font: Poppins;
+    font-weight: 600;
+}
+
+.td-plain-gray {
+    color: #A098AE;
+    font: Poppins;
+    font-weight: 400;
+}
+
+.td-print {
+    src: url("../../pictures/print.jpeg");
+}
+
+.td-dots {
+    src: url("../../pictures/dots.jpeg")
+}
+
+.tfoot-buttons-wrapper {
+    margin-left: 20px;
+}
+
+.table-wrapper th {
+    color: #363B64;;
+}
+
+.table-wrapper button {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 6px 28px;
+    color: #363B64;
+    font-size: 20;
+    font-weight: 600;
+    font-family: Poppins, Arial
+}
+
+.table-wrapper {
+    background-color: rgb(245, 245, 245);
+    margin-right: 800px;
+}

@@ -1,0 +1,190 @@
+.API-header {
+    background-color: #06163A;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #fff;
+    padding: 100px 90px;
+}
+
+.API-header h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.API-header p {
+    font-size: 16px;
+}
+
+#API-title {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: start;
+    padding-left: 80px;
+    padding-top:90px;
+    color: #333333;
+}
+
+.docs-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    height: 1040px;
+}
+
+.info {
+    margin-top: -30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    font-family:"arial";
+}
+
+.info h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #171725;
+}
+
+.code {
+    background-color: #44444F;
+}
+
+#code-block {
+    background-color: #44444F;
+    border-radius: 20px;
+    padding: 20px;
+    text-align:left;
+}
+
+.code-container {
+    background-color: #3D3D49;
+    border-radius: 20px;
+    padding: 20px;
+    text-align:left;
+    width: 80%;
+    margin-left: 17px;
+}
+
+.green-tag {
+    color: #3DD598;
+    font-size: 12px;
+    font:"Arial";
+}
+
+.tab {
+    padding-left: 20px;
+}
+
+.attr{
+    color: #50B5FF;
+    font-size: 14px;
+    font:"Arial";
+    }
+
+.link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.ref {
+    color: #0062FF;
+    font-size: 16px;
+}
+
+.default-field-table {
+    background-color: #F1F1F5;
+}
+
+.default-field-row-top {
+    background-color: #F1F1F5;
+    width: 100%;
+    padding: 50px;
+    color: #92929D;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.default-field-blue-text {
+    color: #50B5FF;
+}
+
+.default-field-yellow-text {
+    color: #FFC542;
+}
+
+.default-field-true {
+    color: #82C43C;
+}
+
+.default-field-false {
+    color: #FC5A5A;
+}
+
+.default-field-gray-text {
+    color: #92929D;
+}
+
+.default-field-row {
+    background: #fff;
+    width: 100%;
+}
+
+.default-field-row-top-wrapper {
+    background-color: #F1F1F5;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin-right: 240px;
+    background-color: #F1F1F5;
+    width: 100%;
+}
+
+.sub-row {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    width: 100%;
+    text-align: start;
+}
+
+.code-section-text {
+    color: #92929D;
+    font-family:roboto, "Arial"; 
+    text-align: left;
+    padding: 25px;
+}
+
+.code-header {
+    background-color: #696974;
+    margin-bottom: 30px;
+    height: 50px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.code-header button {
+    background-color: #696974;
+    border: none;
+    color: white;
+    font: "arial";
+    text-align: center;
+    padding: 17px;
+    font-weight: 700;
+}
+
+#button-HTML {
+    font-weight: 750;
+}
