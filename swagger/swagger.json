@@ -9,6 +9,43 @@
       "url": "https://opensource.org/licenses/MIT"
     }
   },
-  "host": "localhost:3000",
-  "basePath": "/api"
+  "host": "localhost:3001",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "Budget",
+      "description": "Send Haitian Gov Budget in Json"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/budget": {
+      "get": {
+        "tags": ["Budget"],
+        "description": "Get Budget data",
+        "parameters": [{
+          "name": "category",
+          "in": "query",
+          "description": "Filter budget data by category"},
+          {
+            "name": "governing body",
+            "in": "query",
+            "description": "Filter budget data by boverning body"
+          },
+          {
+            "name": "governing function",
+            "in": "query",
+            "description": "Filter budget data by governing function"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {"description": "Got Budget Data"
+          }
+        }
+      }
+    }
+  }
 }
