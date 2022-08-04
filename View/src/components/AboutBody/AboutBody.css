@@ -1,0 +1,259 @@
+.hero-about {
+    width: 100%;
+    height: 480px;
+    background-color: #4e7496;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+
+.hero-about h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.text-intro {
+    display: flex;
+    height: 570px;
+    width: 100%;
+}
+
+.intro-image {
+    width: 100%;
+    height: 100%;
+    background-color: #E6E6E6;
+}
+
+.intro-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 30px 60px;
+}
+
+.intro-text h1 {
+    color: #0A2647;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-text p {
+    color: #666666;
+}
+
+.quote {
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin: 50px 60px;
+}
+
+.stats-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stats-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0A2647;
+    margin-bottom: -15px;
+}
+
+.stats-text p {
+    color: #7A7A7A;
+}
+
+.history {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.history-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    padding: 30px;
+}
+
+.history-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.history-text p {
+    color: #7A7A7A;
+}
+
+.history-text button {
+    text-align: center;
+    color: #fff;
+    padding: 20px 30px;
+    border: 0;
+    background-color: #D61F00;
+    width: 30%;
+}
+
+.history-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.history-image {
+    background-color: #808080;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 10px solid #fff;
+}
+
+.challenge {
+    width: 100%;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    background-color: #06163A;
+}
+
+.challenge button {
+    background-color: #D61F00;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
+    width: 20%;
+    padding: 20px 30px;
+    align-self: center;
+    justify-self: center;
+}
+
+.council-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.council-title p {
+    padding-right: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #D61F00;
+    padding-top: 20px;
+}
+
+.council-title h3 {
+    padding-left: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0A2647;
+}
+
+.council-lists {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.council {
+    background-color: #E0E0E0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.council-name {
+    width: 100%;
+    background-color: #06163A;
+    color: #ffffff;
+}
+
+.council-name h1 {
+    padding: 0 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.council-name p {
+    font-size: 20px;
+}
+
+#city {
+    color: #0A2647;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#city-desc {
+    color: #7A7A7A;
+    margin-bottom: 60px;
+}
+
+.city-wrapper {
+    width: 100%;
+}
+
+.city-grid {
+    width: 90%;
+    margin: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 1200px;
+}
+
+.city-item {
+    background-color: #E6E6E6;
+    width: 100%;
+}
+
+.city-item-first {
+    background-color: #4e7496;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: start;
+}
+
+.city-item-first h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.city-item-first p {
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.city-item-first button {
+    text-align: center;
+    width: 20%;
+    padding: 20px 30px;
+    background-color: #D61F00;
+    border: 0;
+    margin-left: 40px;
+}

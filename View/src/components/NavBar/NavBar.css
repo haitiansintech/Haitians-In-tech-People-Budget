@@ -1,0 +1,16 @@
+.NavBar {
+    background-color: #14283A;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavOptionsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    margin: 12px 14px;
+    color: #fff;
+}
