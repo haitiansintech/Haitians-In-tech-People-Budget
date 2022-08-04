@@ -126,27 +126,6 @@
     border-left: 10px solid #fff;
 }
 
-.challenge {
-    width: 100%;
-    height: 446px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #ffffff;
-    background-color: #06163A;
-}
-
-.challenge button {
-    background-color: #D61F00;
-    border: 0;
-    color: #ffffff;
-    text-align: center;
-    width: 20%;
-    padding: 20px 30px;
-    align-self: center;
-    justify-self: center;
-}
-
 .council-title {
     display: flex;
     justify-content: space-between;
