@@ -10,7 +10,7 @@ React, Express, Nodejs
 
     - ```bash
         npm install # server dependencies
-        cd View && npm install && cd - # client dependencies
+        cd view && npm install && cd - # client dependencies
         ```
 
 - Run the frontend
