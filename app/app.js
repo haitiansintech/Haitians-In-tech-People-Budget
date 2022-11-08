@@ -17,11 +17,14 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(cors());
 
-if (!process.env.NODE_ENV === 'dev') app.use(compression());
+if (!['dev', 'staging'].includes(process.env.NODE_ENV)) app.use(compression());
+
 app.use('/api', router);
-if (process.env.NODE_ENV === 'dev') {
+
+if (['dev', 'staging'].includes(process.env.NODE_ENV)) {
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
     app.use(swStats.getMiddleware({ swaggerSpec: swaggerDocument }));
 }
+
 app.use(errorHandler);
 module.exports = app;
